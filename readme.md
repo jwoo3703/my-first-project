@@ -5,6 +5,7 @@
 - **PowerShell**: 명령어를 입력하는 창
 - **winget**: 프로그램 설치 도구
 - **마크다운**: 기호로 서식을 표시하는 글쓰기 규칙
+- **Git**: 파일의 변경 이력을 기록하는 도구
 
 ## 참고 링크
 [VS Code 공식 사이트](https://code.visualstudio.com)
