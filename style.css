@@ -1,14 +1,34 @@
 body {
-            font-family: serif;
-            background-color: lightyellow;
-        }
-        h1 {
-            color: red;
-            font-size: 60px;
-            text-align: center;
-        }
-        p { color:blue; }
-        .highlight {
-            background-color: yellow;
-            font-weight: bold;
-        }
+    font-family: serif;
+    background-color: lightyellow;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    color: blue;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 20px;
+    margin: 40px;
+}
+
+h1,
+h2,
+p {
+    border: 2px solid gray;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+}
